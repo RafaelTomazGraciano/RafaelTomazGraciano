@@ -24,12 +24,10 @@ Feel free to reach out!
 ### 📊 Stats
 
 <div style="display: flex; gap: 20px; align-items: flex-start;">
-  <a href="https://github-readme-stats.vercel.app/api?username=RafaelTomazGraciano&show_icons=true&theme=react" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api?username=RafaelTomazGraciano&show_icons=true&theme=react" alt="Rafael's GitHub stats" style="height: 180px;"/>
-  </a>
   <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=RafaelTomazGraciano&layout=compact&theme=react" target="_blank">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RafaelTomazGraciano&layout=compact&theme=react" alt="Top Langs" style="height: 180px; object-fit: contain;"/>
   </a>
 </div>
+
 
 
