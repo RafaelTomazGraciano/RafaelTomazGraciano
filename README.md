@@ -1,6 +1,6 @@
 ## 👋 Hi there, I'm Rafael!
 
-I'm 19 years old and currently studying Computer Science.
+I'm a Computer Science student.
 I've always been passionate about technology, and I'm constantly looking for new things to learn.
 I enjoy solving problems, exploring new tools, and working on projects that challenge me.
 My dream is to grow into a software developer.
@@ -28,6 +28,7 @@ Feel free to reach out!
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RafaelTomazGraciano&layout=compact&theme=react" alt="Top Langs" style="height: 180px; object-fit: contain;"/>
   </a>
 </div>
+
 
 
 
