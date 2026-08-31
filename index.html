@@ -1,60 +1,279 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Rafael Tomaz Graciano</title>
-    <!-- Google Fonts-->
+    <title>Portfólio | Rafael Tomaz Graciano</title>
+    <meta name="description" content="Portfólio de Rafael Tomaz Graciano, estudante de Ciência da Computação e desenvolvedor backend. Confira minhas tecnologias e projetos.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rafaeltomazgraciano.github.io/RafaelTomazGraciano/">
+    <meta property="og:title" content="Rafael Tomaz Graciano | Desenvolvedor Backend">
+    <meta property="og:description" content="Estudante de Ciência da Computação e desenvolvedor backend. Confira minhas tecnologias e projetos.">
+    <meta property="og:image" content="https://rafaeltomazgraciano.github.io/RafaelTomazGraciano/img/profile.jpg">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Rafael Tomaz Graciano | Desenvolvedor Backend">
+    <meta name="twitter:description" content="Estudante de Ciência da Computação e desenvolvedor backend. Confira minhas tecnologias e projetos.">
+    <meta name="twitter:image" content="https://rafaeltomazgraciano.github.io/RafaelTomazGraciano/img/profile.jpg">
+
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23212d3d'/%3E%3Ctext x='50' y='68' font-family='Arial,sans-serif' font-weight='700' font-size='48' fill='%234fb8ff' text-anchor='middle'%3ERG%3C/text%3E%3C/svg%3E">
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
-    <!-- Devicon Fonts-->
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-    <!-- Google Material Icon-->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
+    <!-- Devicon -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <!-- Google Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- CSS do Projeto-->
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <main id="container">
+
         <aside id="bio-container">
+            <img id="bio-image" src="img/profile.jpg" alt="Foto de Rafael Tomaz Graciano">
             <h2>Rafael Tomaz Graciano</h2>
-            <img id="bio-image" src="img/profile.jpg" alt="Rafael Tomaz Graciano">
-            <p>Olá, meu nome é Rafael Tomaz Graciano e desejo ser <span class="highlight">Desenvolvedor Júnior</span></p>
-            <p id="welcome-text">Seja bem-vindo</p>
+            <p class="bio-text">Estudante de <span class="highlight">Ciência da Computação</span> e <span class="highlight">Desenvolvedor Backend</span></p>
+            <p id="welcome-text">Seja bem-vindo!</p>
+
             <ul id="social-container">
-                <li><a href="https://www.linkedin.com/in/rafael-tomaz-graciano-1a4a09267/" target="_blank"><i class="devicon-linkedin-plain colored"></i></a></li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/rafael-tomaz-graciano-1a4a09267/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <i class="devicon-linkedin-plain"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/RafaelTomazGraciano" target="_blank" rel="noopener" aria-label="GitHub">
+                        <i class="devicon-github-original"></i>
+                    </a>
+                </li>
             </ul>
+
             <div id="email-container">
-                <i class="material-icons">mail_outline</i><a href="mailto:rafaeltomaz2005@gmail.com">rafaeltomaz2005@gmail.com</a>
+                <i class="material-icons">mail_outline</i>
+                <a href="mailto:rafaeltomaz2005@gmail.com">rafaeltomaz2005@gmail.com</a>
             </div>
         </aside>
+
         <section id="about-container">
+
             <h1 id="name">Rafael Tomaz Graciano</h1>
-            <p id="title"><span class="hihlight">Desenvolvedor Júnior</span></p>
-            <p class="description">Sou estudante de <span class="highlight">Ciência da Computação</span> pela Universidade Estadual do Norte do Paraná (UENP). Desde que iniciei meus estudos, tenho me dedicado a aprimorar minhas habilidades em programação, estou sempre em busca de aprender mais e estou aberto a novas oportunidades que me permitam expandir meu conhecimento.</p>
-            <p class="description">Meu objetivo é me tornar um <span class="highlight">Desenvolvedor Júnior</span>, atualmente, meu foco está no <span class="highlight">back-end</span>, onde tenho ganhado experiência prática com diversas tecnologias.</p>
-            <a href="https://github.com/RafaelTomazGraciano" target="_blank" id="btn-projects">
-                <i class="devicon-github-original"></i>
-                <span>Ver Projetos</span>
-            </a>
-            <h2 id="skills-section-title">Meus conhecimentos</h2>
-            <p class="description">Conheça as tecnologias que domino:</p>
-            <div id="skills-container">
-                <div class="skills-box">
-                    <p class="skills-title">Linguagens de Programação</p>
-                    <i class="devicon-c-plain-wordmark colored"></i>
-                    <i class="devicon-java-plain-wordmark colored"></i>
-                    <i class="devicon-python-plain-wordmark colored"></i>
+            <p id="title">Desenvolvedor Backend Júnior</p>
+
+            <p class="description">
+                Sou estudante de <span class="highlight">Ciência da Computação</span> pela Universidade Estadual
+                do Norte do Paraná (UENP). Desde que iniciei meus estudos, tenho me dedicado a aprimorar minhas
+                habilidades em programação, estou sempre em busca de aprender mais e aberto a novas oportunidades.
+            </p>
+            <p class="description">
+                Meu objetivo é me tornar um <span class="highlight">Desenvolvedor Júnior</span>. Atualmente, meu
+                foco está no <span class="highlight">back-end</span>, onde tenho ganhado experiência prática com
+                diversas tecnologias.
+            </p>
+
+            <div class="btn-row">
+                <a href="#projetos" class="btn btn-primary">
+                    <i class="devicon-github-original"></i>
+                    <span>Ver projetos</span>
+                </a>
+                <a href="mailto:rafaeltomaz2005@gmail.com" class="btn btn-secondary">
+                    <i class="material-icons">mail_outline</i>
+                    <span>Entrar em contato</span>
+                </a>
+            </div>
+
+            <div class="page-section">
+                <h2 class="section-title">Meus conhecimentos</h2>
+                <p class="section-subtitle">Tecnologias que domino e tenho um pouco de conhecimento.</p>
+
+                <div class="skills-group skills-group--advanced">
+                    <div class="skills-group-title">
+                        <span class="dot"></span>
+                        <span>Domino</span>
+                    </div>
+                    <div class="tech-grid">
+                        <div class="tech-card">
+                            <i class="devicon-java-plain colored"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="tech-card">
+                            <i class="devicon-spring-plain colored"></i>
+                            <span>Spring</span>
+                        </div>
+                        <div class="tech-card">
+                            <i class="devicon-postgresql-plain colored"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="tech-card">
+                            <i class="devicon-docker-plain colored"></i>
+                            <span>Docker</span>
+                        </div>
+                        
+                    </div>
                 </div>
-                <div class="skills-box">
-                    <p class="skills-title">Databases</p>
-                    <i class="devicon-mongodb-plain-wordmark colored"></i>
+
+                <div class="skills-group skills-group--basic">
+                    <div class="skills-group-title">
+                        <span class="dot"></span>
+                        <span>Tenho conhecimento</span>
+                    </div>
+                    <div class="tech-grid">
+                        <div class="tech-card">
+                            <i class="devicon-javascript-plain colored"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="tech-card">
+                            <i class="devicon-typescript-plain colored"></i>
+                            <span>TypeScript</span>
+                        </div>
+                        <div class="tech-card">
+                            <i class="devicon-react-original colored"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="tech-card">               
+                            <i class="devicon-csharp-plain colored"></i>
+                            <span>C#</span>
+                        </div>
+                        <div class="tech-card">
+                            <i class="devicon-c-plain colored"></i>
+                            <span>C</span>
+                        </div>
+                        <div class="tech-card">
+                            <i class="devicon-python-plain colored"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="tech-card">
+                            <i class="devicon-mongodb-plain colored"></i>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <div class="page-section" id="projetos">
+                <h2 class="section-title">Projetos</h2>
+                <p class="section-subtitle">Alguns projetos que desenvolvi. Confira o código no GitHub.</p>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+                        <div class="project-card-thumb">
+                            <img src="img/archbank.webp" alt="Preview do repositório ArchBank" loading="lazy">
+                        </div>
+                        <h3 class="highlight">ArchBank</h3>
+                        <p>Simulação de banco digital com cadastro de usuários, contas e transações</p>
+                        <div class="project-tech-list">
+                            <div class="tech-mini">
+                                <i class="devicon-java-plain colored"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="tech-mini">
+                                <i class="devicon-spring-plain colored"></i>
+                                <span>Spring</span>
+                            </div>
+                            <div class="tech-mini">
+                                <i class="devicon-typescript-plain colored"></i>
+                                <span>TypeScript</span>
+                            </div>
+                            <div class="tech-mini">
+                                <i class="devicon-react-original colored"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="tech-mini">
+                                <i class="devicon-postgresql-plain colored"></i>
+                                <span>Postgres</span>
+                            </div>
+                            <div class="tech-mini">
+                                <i class="devicon-docker-plain colored"></i>
+                                <span>Docker</span>
+                            </div>
+                        </div>
+                        <a href="https://github.com/RafaelTomazGraciano/archbank" class="project-link" target="_blank" rel="noopener">
+                            <i class="devicon-github-original"></i>
+                            <span>Ver no GitHub</span>
+                        </a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-card-thumb">
+                            <img src="img/simplified-payment-api.webp" alt="Preview do repositório Simplified Payment API" loading="lazy">
+                        </div>
+                        <h3 class="highlight">Simplified Payment API</h3>
+                        <p>API REST de pagamentos simplificados, solução para o desafio backend do PicPay</p>
+                        <div class="project-tech-list">
+                            <div class="tech-mini">
+                                <i class="devicon-java-plain colored"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="tech-mini">
+                                <i class="devicon-spring-plain colored"></i>
+                                <span>Spring</span>
+                            </div>
+                            <div class="tech-mini">
+                                <i class="devicon-postgresql-plain colored"></i>
+                                <span>Postgres</span>
+                            </div>
+                            <div class="tech-mini">
+                                <i class="devicon-docker-plain colored"></i>
+                                <span>Docker</span>
+                            </div>
+                        </div>
+                        <a href="https://github.com/RafaelTomazGraciano/Simplified-Payment-API" class="project-link" target="_blank" rel="noopener">
+                            <i class="devicon-github-original"></i>
+                            <span>Ver no GitHub</span>
+                        </a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-card-thumb">
+                            <img src="img/three-musketeers.webp" alt="Preview do repositório Three Musketeers" loading="lazy">
+                        </div>
+                        <h3 class="highlight">Three Musketeers</h3>
+                        <p>Compilador de uma linguagem própria, semelhante a C, com tipagem forte e suporte nativo a strings. Desenvolvido usando <span class="highlight">LLVM</span> e <span class="highlight">ANTLR</span></p>
+                        <div class="project-tech-list">
+                            <div class="tech-mini">
+                                <i class="devicon-csharp-plain colored"></i>
+                                <span>C#</span>
+                            </div>
+                            <div class="tech-mini">
+                                <i class="devicon-dotnetcore-plain colored"></i>
+                                <span>.NET</span>
+                            </div>
+                        </div>
+                        <a href="https://github.com/RafaelTomazGraciano/three-musketeers" class="project-link" target="_blank" rel="noopener">
+                            <i class="devicon-github-original"></i>
+                            <span>Ver no GitHub</span>
+                        </a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-card-thumb">
+                            <img src="img/huffman.webp" alt="Preview do repositório Huffman Algorithm" loading="lazy">
+                        </div>
+                        <h3 class="highlight">Huffman Algorithm</h3>
+                        <p>Implementação do algoritmo de Huffman em C para compressão e descompressão de arquivos sem perdas</p>
+                        <div class="project-tech-list">
+                            <div class="tech-mini">
+                                <i class="devicon-c-plain colored"></i>
+                                <span>C</span>
+                            </div>
+                        </div>
+                        <a href="https://github.com/RafaelTomazGraciano/HuffmanAlgorithm" class="project-link" target="_blank" rel="noopener">
+                            <i class="devicon-github-original"></i>
+                            <span>Ver no GitHub</span>
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+
         </section>
     </main>
-    <!-- Ion Icons-->
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
