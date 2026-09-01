@@ -1,34 +1,35 @@
-## 👋 Hi there, I'm Rafael!
+### Hi, I'm Rafael 👋
 
-I'm a Computer Science student.
-I've always been passionate about technology, and I'm constantly looking for new things to learn.
-I enjoy solving problems, exploring new tools, and working on projects that challenge me.
-My dream is to grow into a software developer.
+I'm a 4th-year Computer Science student at Universidade Estadual do Norte do Paraná (UENP), currently focused on backend development. I like understanding how computers and processes actually work, especially anything related to performance. I also enjoy trying out new languages and technologies just to see how they work.
 
-### 💻 Languages & Tools
+
+<a href="https://www.linkedin.com/in/rafael-tomaz-graciano-1a4a09267/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+---
+
+### Proficient in
 
 <p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring" width="40" height="40"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 </p>
 
-### 📨 Contact me
+### I have worked with
 
-<a href="https://www.linkedin.com/in/rafael-tomaz-graciano" target="_blank">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="40" height="40"/>
-</a>  
+<p align="left">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+</p>
 
-Feel free to reach out!
+---
 
-### 📊 Stats
-
-<div style="display: flex; gap: 20px; align-items: flex-start;">
-  <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=RafaelTomazGraciano&layout=compact&theme=react" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RafaelTomazGraciano&layout=compact&theme=react" alt="Top Langs" style="height: 180px; object-fit: contain;"/>
-  </a>
-</div>
-
-
-
-
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=RafaelTomazGraciano&layout=compact&theme=react" alt="Top Languages" />
